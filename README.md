@@ -1,1 +1,23 @@
 # NUMPY-ARRAY
+<a href=https://www.apponix.com/python-courses>Python<a/> includes a large number of libraries that may be used to execute a variety of tasks. The libraries are organized into groups based on the task at hand. Python is a fantastic programming language that provides the ideal environment for doing various scientific and mathematical calculations. Numpy, a popular Python library, is an example of such a library. It's a Python-based open-source toolkit for conducting computations in the engineering and scientific domains.
+Numpy is a Python package that contains multidimensional arrays and matrix data structures. The ndarray object is a homogenous array object provided by the library. In Python, the Numpy array has the shape of an n-dimensional array. There are also other methods in the library that can be used to execute operations on the array. The library may be used to execute a variety of mathematical operations on the array as well. Python can be enhanced with data structures that will allow for the efficient calculation of various matrices and arrays. The library also includes a number of mathematical functions that can be used to manipulate matrices and arrays.
+The library's installation and import
+A Python distribution of scientific origin should be used to install Numpy in Python. The library may be installed with the following command if the machine already has Python installed.
+Numpy can be installed with Conda or by using the pip command.
+Anaconda, which is one of the easiest ways to install Python, can be used if it hasn't been installed yet on the machine. Other libraries or packages, such as SciPy, Numpy, Scikit-learn, pandas, and others, do not need to be installed individually when installing Anaconda.
+The command import Numpy as np can be used to import the Numpy library into Python.
+The module includes numerous methods for quickly and efficiently creating arrays in Python. It also allows you to change the data within the arrays or modify the arrays themselves. The distinction between a list and a Numpy array in Python is that the data in a Python list can be of different data types, whereas the items in a Numpy array in Python should be homogeneous. Within the Numpy array, the items have the same data types. The mathematical functions that could be applied over the Numpy array would become inefficient if the elements in the Numpy array were of different data types.
+Python Numpy Array
+Within the Numpy library, the Numpy array is a centralized data structure. When an array is defined, it is made up of arrays that are arranged in a grid and hold raw data information. It also offers instructions on how to locate an element in an array and how to interpret an element in an array. The Numpy array is made up of grid elements that can be indexed in a variety of ways. The array's elements all have the same data type, hence they're referred to as array dtype.
+•	The array's index is determined by a tuple of non-negative integers. Integers, Booleans, and other arrays can also be used to index it.
+•	The dimension number of an array is used to determine its rank.
+•	An array's form is defined as the set of numbers that specify the array's size in each dimension.
+•	For high-dimensional data, a Python list with nested lists can be used to initialize the arrays.
+•	Square brackets can be used to access the items of the array. The indexing of the Numpy array always starts with 0, therefore when accessing the elements, the array's first element will be at the 0 position.
+The Numpy array's basic operations
+•	In Python, the function np.array() is used to create a Numpy array. The user must first generate an array before passing it to a list. In the list, the user can also specify the data type.
+•	In Python, the function np.sort() can be used to sort a Numpy array. When the function is invoked, the user can define the kind, axis, and order.
+•	Users can use ndarray.ndim to retrieve information about the array's dimensions or axis number. Using ndarray.size also informs the user of the total number of elements in the array.
+•	Arrays in Numpy can be indexed and sliced in the same manner that lists in Python can.
+•	The sign "+" can be used to join two arrays together. Additionally, the sum() function can be used to return the sum of all the entries in an array. The function can be applied to arrays with one, two, or even three dimensions.
+•	Operations can be carried out over arrays of various forms using the idea of broadcasting in a Numpy array. The array dimensions, however, must be compatible; otherwise, the application will throw a ValueError.
